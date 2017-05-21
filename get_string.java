@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class getString extends AppCompatActivity {
+public class get_string extends AppCompatActivity {
 
     TextView nama, nim, prodi;
 
