@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, tampilan.class);
+        Intent intent = new Intent(MainActivity.this, get_string.class);
         intent.putExtra("nama", nama.getText().toString());
         intent.putExtra("nim", nim.getText().toString());
         startActivity(intent);
