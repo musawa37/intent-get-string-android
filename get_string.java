@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class get_string extends AppCompatActivity {
 
-    TextView nama, nim, prodi;
+    TextView nama, nim;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
